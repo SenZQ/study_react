@@ -1,0 +1,101 @@
+.win{
+    &.container{
+        padding: 0;
+
+        .href_level{
+            position: fixed;
+            left: 10px;
+            top: 50px;
+        }        
+    }
+}
+
+
+
+.article_container{
+    position: relative;
+    width: 800px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 120px auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #d8e3e7;
+    border: solid thin #d8e3e7;
+    background-color: #FFF;
+    box-sizing: border-box;
+    
+    .user{
+        position: relative;
+        height: 40px;
+        width: 100%;
+        margin-bottom: 15px;
+        
+        .head{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .name{
+            position: absolute;
+            left: 55px;
+            top: 0;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+        }
+    }
+    
+    .tag{
+        margin-bottom: 15px;
+    }
+    
+    .article_content{
+        line-height: 32px;
+        margin-bottom: 50px;
+    }
+    
+    .send_comment{
+        position: relative;
+        height: 50px;
+        padding-left: 60px;
+        box-sizing: border-box;
+        margin: 60px 0px 45px 0px;
+        
+        .head{
+            position: absolute;
+            left: 0;
+            top: -4px;
+        }
+        
+        .send_comment_input{
+            position: relative;
+            width: 100%;
+            
+            .send_comment_input_line{
+                position: relative;
+                display: inline-block;
+                
+                &.w85{
+                    width: 85%;
+                }
+                &.w15{
+                    width: 15%;
+                    padding-left: 15px;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+    
+    .comment_list{
+        position: relative;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    
+}

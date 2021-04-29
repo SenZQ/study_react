@@ -1,0 +1,62 @@
+.top_bar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background: #001529;
+    color: #FFF;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    overflow: hidden;
+    z-index: 10;
+    
+    span{
+        font-size: 18px;
+    }
+    
+    .btn_list{
+        position: absolute;
+        top: 0;
+        right: 50px;
+        height: 100%;
+        width: auto;
+        display: flex;
+        padding-right: 130px;
+
+        .ant-btn{
+            height: 50px;
+        }
+        
+        .head{
+            margin: 0 20px;
+            display: flex;
+            align-items: center;            // 垂直居中
+        }
+        
+        .menu{
+            position: absolute;
+            right: 0;
+            top: 0;
+            overflow: hidden;
+
+            .ant-menu{
+                .ant-menu-submenu-title{
+                    height: 50px;
+                    line-height: 50px;
+                }
+                
+            }
+        }
+    }
+}
+
+.ant-menu-item-selected{
+    background: #001529 !important;
+    color: #FFFFFFA6 !important;
+
+    &:hover{
+        color: #FFF !important;
+    }
+}
